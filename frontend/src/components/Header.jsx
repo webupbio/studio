@@ -26,7 +26,7 @@ const Header = () => {
       <div className="max-w-[1400px] mx-auto px-[7.6923%] h-20 flex items-center justify-between">
         <div className="flex items-center">
           <img 
-            src="https://customer-assets.emergentagent.com/job_a6c678bd-0709-4e07-a963-5129decca2fc/artifacts/wxf0b4vx_75ADA089-6B72-4836-8A26-374763EEBF3D.png" 
+            src="/upbio-logo.png" 
             alt="UpBio" 
             className="h-12 object-contain cursor-pointer hover:opacity-80 transition-opacity duration-300"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
