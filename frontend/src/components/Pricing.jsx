@@ -117,21 +117,21 @@ const Pricing = () => {
         </div>
 
         {/* Desktop Grid */}
-        <div className="hidden lg:grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-8">
+        <div className="hidden lg:grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-12">
           {pricingPlans.map((plan) => (
             <div 
               key={plan.id}
               className={`bg-white/5 border-2 p-8 transition-all duration-400 hover:transform hover:scale-105 relative ${
                 plan.recommended 
-                  ? 'border-brand-primary bg-brand-primary/5 shadow-[0_0_30px_rgba(0,255,209,0.2)] mt-4' 
+                  ? 'border-brand-primary bg-brand-primary/5 shadow-[0_0_30px_rgba(0,255,209,0.2)] mt-8' 
                   : 'border-white/10 hover:border-brand-primary/50'
               }`}
             >
               {plan.recommended && (
-                <div className="absolute -top-6 left-1/2 -translate-x-1/2 z-10">
-                  <div className="bg-brand-primary px-6 py-2 flex items-center gap-2">
-                    <Sparkles size={16} className="text-black" />
-                    <span className="text-black font-semibold text-sm uppercase tracking-wide">Recommended</span>
+                <div className="absolute -top-8 left-1/2 -translate-x-1/2 z-10">
+                  <div className="bg-brand-primary px-6 py-3 flex items-center gap-2">
+                    <Sparkles size={18} className="text-black" />
+                    <span className="text-black font-bold text-base uppercase tracking-wider">Recommended</span>
                   </div>
                 </div>
               )}
