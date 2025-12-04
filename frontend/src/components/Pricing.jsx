@@ -128,14 +128,14 @@ const Pricing = () => {
               }`}
             >
               {plan.recommended && (
-                <div className=\"mb-4 -mx-8 -mt-8 pt-3 pb-3 bg-brand-primary flex items-center justify-center gap-2\">
-                  <Sparkles size={18} className=\"text-black\" />
-                  <span className=\"text-black font-bold text-base uppercase tracking-wider\">Recommended</span>
+                <div className="mb-4 -mx-8 -mt-8 pt-3 pb-3 bg-brand-primary flex items-center justify-center gap-2">
+                  <Sparkles size={18} className="text-black" />
+                  <span className="text-black font-bold text-base uppercase tracking-wider">Recommended</span>
                 </div>
               )}
 
               <div className={`text-center mb-8 ${plan.recommended ? 'mt-0' : 'mt-2'}`}>
-                <h3 className=\"heading-1 text-white mb-4\">{plan.name}</h3>
+                <h3 className="heading-1 text-white mb-4">{plan.name}</h3>
                 <div className="flex items-baseline justify-center gap-2 mb-2">
                   <span className="display-large text-brand-primary">${plan.price}</span>
                 </div>
