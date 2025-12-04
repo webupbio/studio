@@ -117,27 +117,25 @@ const Pricing = () => {
         </div>
 
         {/* Desktop Grid */}
-        <div className="hidden lg:grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-12">
+        <div className="hidden lg:grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {pricingPlans.map((plan) => (
             <div 
               key={plan.id}
-              className={`bg-white/5 border-2 p-8 transition-all duration-400 hover:transform hover:scale-105 relative ${
+              className={`bg-white/5 border-2 p-8 transition-all duration-400 hover:transform hover:scale-105 relative overflow-visible ${
                 plan.recommended 
-                  ? 'border-brand-primary bg-brand-primary/5 shadow-[0_0_30px_rgba(0,255,209,0.2)] mt-8' 
+                  ? 'border-brand-primary bg-brand-primary/5 shadow-[0_0_30px_rgba(0,255,209,0.2)]' 
                   : 'border-white/10 hover:border-brand-primary/50'
               }`}
             >
               {plan.recommended && (
-                <div className="absolute -top-8 left-1/2 -translate-x-1/2 z-10">
-                  <div className="bg-brand-primary px-6 py-3 flex items-center gap-2">
-                    <Sparkles size={18} className="text-black" />
-                    <span className="text-black font-bold text-base uppercase tracking-wider">Recommended</span>
-                  </div>
+                <div className=\"mb-4 -mx-8 -mt-8 pt-3 pb-3 bg-brand-primary flex items-center justify-center gap-2\">
+                  <Sparkles size={18} className=\"text-black\" />
+                  <span className=\"text-black font-bold text-base uppercase tracking-wider\">Recommended</span>
                 </div>
               )}
 
-              <div className="text-center mb-8 mt-2">
-                <h3 className="heading-1 text-white mb-4">{plan.name}</h3>
+              <div className={`text-center mb-8 ${plan.recommended ? 'mt-0' : 'mt-2'}`}>
+                <h3 className=\"heading-1 text-white mb-4\">{plan.name}</h3>
                 <div className="flex items-baseline justify-center gap-2 mb-2">
                   <span className="display-large text-brand-primary">${plan.price}</span>
                 </div>
