@@ -171,7 +171,7 @@ const Pricing = () => {
         <div className="mt-16 text-center">
           <p className="body-large text-white/70 max-w-3xl mx-auto">
             All plans include responsive design, cross-browser compatibility, and initial setup support. 
-            Need a custom solution? <a href="https://instagram.com/upbio.pro" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Contact us</a> for enterprise pricing.
+            Need a custom solution? <a href="https://ig.me/m/upbio.pro" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Contact us</a> for enterprise pricing.
           </p>
         </div>
       </div>
