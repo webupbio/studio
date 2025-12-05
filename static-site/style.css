@@ -68,18 +68,7 @@ body {
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.header-logo img {
-    height: 48px;
-    object-fit: contain;
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-}
-
-.header-logo img:hover {
-    opacity: 0.8;
+    justify-content: center;
 }
 
 .header-nav {
