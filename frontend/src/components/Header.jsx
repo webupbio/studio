@@ -24,15 +24,6 @@ const Header = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-400 ${scrolled ? 'bg-black/95 backdrop-blur-sm border-b border-white/25' : 'bg-transparent'}`}>
       <div className="max-w-[1400px] mx-auto px-[7.6923%] h-20 flex items-center justify-between">
-        <div className="flex items-center">
-          <img 
-            src="/upbio-logo.png" 
-            alt="UpBio" 
-            className="h-12 object-contain cursor-pointer hover:opacity-80 transition-opacity duration-300"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          />
-        </div>
-
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <button onClick={() => scrollToSection('about')} className="nav-link">About</button>
