@@ -44,8 +44,8 @@ const Pricing = () => {
                       {plan.recommended && (
                         <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-10">
                           <div className="bg-brand-primary px-6 py-2 flex items-center gap-2">
-                            <Sparkles size={16} className="text-black" />
-                            <span className="text-black font-semibold text-sm uppercase tracking-wide">Recommended</span>
+                            <Sparkles size={16} className="text-white" />
+                            <span className="text-white font-black text-sm uppercase tracking-wide">Recommended</span>
                           </div>
                         </div>
                       )}
