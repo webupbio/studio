@@ -68,7 +68,7 @@ const Pricing = () => {
                       </div>
 
                       <a 
-                        href="https://instagram.com/upbio.pro" 
+                        href="https://ig.me/m/upbio.pro" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className={`w-full block text-center py-4 font-semibold transition-all duration-400 ${
