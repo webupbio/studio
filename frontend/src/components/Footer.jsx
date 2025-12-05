@@ -84,13 +84,13 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a 
-                  href="https://instagram.com/upbio.pro" 
+                  href="https://ig.me/m/upbio.pro" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="body-medium text-white/70 hover:text-brand-primary transition-colors duration-300 flex items-center gap-2"
                 >
                   <Instagram size={18} />
-                  @upbio.pro
+                  Message Us
                 </a>
               </li>
               <li className="body-medium text-white/70">
