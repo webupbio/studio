@@ -40,7 +40,7 @@ const Header = () => {
           <button onClick={() => scrollToSection('testimonials')} className="nav-link">Testimonials</button>
           <button onClick={() => scrollToSection('pricing')} className="nav-link">Pricing</button>
           <a 
-            href="https://instagram.com/upbio.pro" 
+            href="https://ig.me/m/upbio.pro" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-primary"
