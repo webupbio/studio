@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://instagram.com/upbio.pro" 
+                href="https://ig.me/m/upbio.pro" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-brand-primary border border-white/20 hover:border-brand-primary p-3 transition-all duration-300 group"
@@ -33,7 +33,7 @@ const Footer = () => {
                 <Instagram className="text-white group-hover:text-black" size={24} />
               </a>
               <a 
-                href="https://instagram.com/upbio.pro" 
+                href="https://ig.me/m/upbio.pro" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-brand-primary border border-white/20 hover:border-brand-primary p-3 transition-all duration-300 group"
@@ -41,7 +41,7 @@ const Footer = () => {
                 <Mail className="text-white group-hover:text-black" size={24} />
               </a>
               <a 
-                href="https://instagram.com/upbio.pro" 
+                href="https://ig.me/m/upbio.pro" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-brand-primary border border-white/20 hover:border-brand-primary p-3 transition-all duration-300 group"
