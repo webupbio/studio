@@ -879,12 +879,8 @@ section {
         grid-template-columns: 1fr;
     }
     
-    .pricing-carousel {
-        display: block;
-    }
-    
-    .pricing-grid.desktop-only {
-        display: none;
+    .pricing-grid {
+        grid-template-columns: 1fr;
     }
     
     .footer-bottom {
