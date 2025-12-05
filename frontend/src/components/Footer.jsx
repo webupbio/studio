@@ -15,11 +15,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <img 
-              src="/upbio-logo.png" 
-              alt="UpBio" 
-              className="h-16 object-contain mb-6"
-            />
+            <h3 className="text-2xl font-bold text-white mb-6">UpBio</h3>
             <p className="body-medium text-white/70 max-w-md mb-6">
               Transforming businesses through professional digital identities. We create stunning websites that drive real results.
             </p>
