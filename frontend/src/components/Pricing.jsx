@@ -129,8 +129,8 @@ const Pricing = () => {
             >
               {plan.recommended && (
                 <div className="mb-4 -mx-8 -mt-8 pt-3 pb-3 bg-brand-primary flex items-center justify-center gap-2">
-                  <Sparkles size={18} className="text-black" />
-                  <span className="text-black font-bold text-base uppercase tracking-wider">Recommended</span>
+                  <Sparkles size={18} className="text-white" />
+                  <span className="text-white font-black text-base uppercase tracking-wider">Recommended</span>
                 </div>
               )}
 
