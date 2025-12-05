@@ -29,7 +29,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <a 
-              href="https://instagram.com/upbio.pro" 
+              href="https://ig.me/m/upbio.pro" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-primary group"
@@ -39,13 +39,13 @@ const Hero = () => {
             </a>
             
             <a 
-              href="https://instagram.com/upbio.pro" 
+              href="https://ig.me/m/upbio.pro" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-secondary group"
             >
               <Instagram size={20} />
-              Follow @upbio.pro
+              Message Us on Instagram
             </a>
           </div>
 
